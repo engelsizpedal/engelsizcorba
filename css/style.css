@@ -58,16 +58,14 @@ header img {
     z-index: 2;
     left: 50%;
     margin-left: -120px;
-    margin-top: 70px;
+    margin-top: 40px;
     border-radius: 50%;
     border: 10px solid white;
 }
 
 footer {
-
     margin-top: 60px;
     background: #f7f7f7;
-
 }
 
 footer p {
@@ -75,4 +73,38 @@ footer p {
     width: 800px;
     margin: auto;
     font-size: 23px;
+}
+
+nav {
+margin-top: -70px;
+height: 70px;
+    z-index: 999;
+}
+
+nav ul {
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    margin-left: -370px;
+    left: 50%;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 3px 9px;
+    margin: 0;
+}
+
+nav ul li a {
+    border-bottom: 4px solid yellow;
+}
+
+#supporters a {
+    border: none;
+    background: none;
+    color: #959595;
+    text-decoration: underline;
 }
