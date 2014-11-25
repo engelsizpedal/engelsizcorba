@@ -108,3 +108,8 @@ nav ul li a {
     color: #959595;
     text-decoration: underline;
 }
+
+p {
+    line-height: 1.6em;
+    color: #414141;
+}
