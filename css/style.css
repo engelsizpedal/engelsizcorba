@@ -10,7 +10,7 @@ header:before {
     position: absolute;
     display: block;
     content: '';
-    background: url(../images/pattern.png);
+    /*background: url(../images/pattern.png);*/
     opacity: 0.2;
     width: 100%;
     height: 400px;
@@ -43,8 +43,9 @@ ul li a {
 }
 
 ul li span {
-    width: 120px;
-    display: inline-block;
+    color: gray;
+    font-size: 30px;
+    display: block;
 }
 
 section {
@@ -112,4 +113,15 @@ nav ul li a {
 p {
     line-height: 1.6em;
     color: #414141;
+}
+
+#press ul {
+    margin: 0;
+    padding: 0;
+}
+
+#press ul li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
 }
