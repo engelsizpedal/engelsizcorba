@@ -11,7 +11,7 @@ header:before {
     display: block;
     content: '';
     /*background: url(../images/pattern.png);*/
-    opacity: 0.2;
+    /*opacity: 0.01;*/
     width: 100%;
     height: 400px;
 }
@@ -54,14 +54,12 @@ section {
 }
 
 header img {
-    width: 240px;
+    width: 300px;
     position: absolute;
     z-index: 2;
     left: 50%;
-    margin-left: -120px;
+    margin-left: -155px;
     margin-top: 40px;
-    border-radius: 50%;
-    border: 10px solid white;
 }
 
 footer {
