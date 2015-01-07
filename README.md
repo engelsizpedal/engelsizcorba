@@ -1,4 +1,4 @@
 engelsizcorba
 =============
 
-engelsizcorba.org web sitesinin kaynak kodlarını içerir.
+engelsizcorba.org web sitesinin kaynak kodlarını içerir..
