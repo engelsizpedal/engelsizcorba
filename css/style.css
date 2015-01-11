@@ -25,6 +25,13 @@ header {
     -o-background-size: cover;
 }
 
+h3 a{
+    background-color: rgba(255, 255, 0, 0.24);
+    color : #353535;
+    text-decoration: none;
+
+}
+
 p a {
     background-color: yellow;
     color: black;
@@ -37,9 +44,13 @@ ul li {
 }
 
 ul li a {
+
     color: #353535;
     text-decoration: none;
     border-bottom: 1px solid yellow;
+}
+ul.needs li a{
+    background-color: rgba(255, 255, 0, 0.24);
 }
 
 ul li span {
