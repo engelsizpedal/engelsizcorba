@@ -134,3 +134,21 @@ p {
     margin: 0;
     padding: 10px 20px;
 }
+
+.announcement {
+    z-index: 9;
+    background: #ed5a19;
+    color: white;
+    position: absolute;
+    width: 800px;
+    margin: auto;
+    left: 50%;
+    margin-left: -400px;
+    padding: 4px 20px;
+    font-size: 17px;
+}
+
+.announcement a {
+    color: white;
+    text-decoration: none
+}
